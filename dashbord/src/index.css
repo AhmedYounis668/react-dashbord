@@ -1,0 +1,307 @@
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Exo', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Protest Riot', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,900&family=Josefin+Sans:ital,wght@1,300;1,700&family=Permanent+Marker&family=Protest+Riot&family=Roboto:ital,wght@1,100&display=swap');
+
+#sidebare
+{
+  background-color: black;
+  color: white;
+  height: 650px;
+
+}
+
+
+.sideitem
+{
+ padding-top: 1px;
+ padding-bottom: 0.5px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.sideitem:hover{
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+.title
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 12px;
+}
+.coponcardstyle
+{
+  font-family: 'Protest Riot';
+  font-size: 20px;
+}
+@media (max-width:687px)
+{
+  .coponcardstyle
+{
+  font-family: 'Protest Riot';
+  font-size: 10px;
+}
+  #sidebare
+{
+  background-color: black;
+  color: white;
+min-height: 890px;
+}
+
+.title
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sideitem
+{
+  font-size: 12px;
+}
+
+
+
+.tablestyle
+{
+  width: 90%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tableth
+{
+  width: 150px;
+  font-size: 12px;
+}
+
+.word
+{
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+.search
+{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: black;
+  opacity:0.5;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.search:hover{
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+
+.tablestyle
+{
+  width: 100%;
+}
+
+.tableth
+{
+  width: 200px;
+  font-family: 'Protest Riot';
+  color: royalblue;
+}
+
+
+
+
+.card {
+  width: 320px;
+  height: 350px;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(#212121, #212121) padding-box,
+              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transform-origin: right bottom;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card .main-content {
+  flex: 1;
+}
+
+.card .header span:first-child {
+  font-weight: 600;
+  color: #717171;
+  margin-right: 4px;
+}
+
+.card .heading {
+  font-size: 24px;
+  margin: 24px 0 16px;
+  font-weight: 600;
+}
+
+.card .categories {
+  display: flex;
+  gap: 8px;
+}
+
+.card .categories span {
+  background-color: #e81cff;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 50em;
+}
+
+.card .footer {
+  font-weight: 600;
+  color: #717171;
+  margin-right: 4px;
+}
+
+.card:hover {
+  rotate: 8deg;
+}
+
+
+
+
+
+
+
+
+.card1 {
+  width: 190px;
+  height: 170px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .card2 {
+  width: 190px;
+  height: 170px;
+  background-color: #1a1a1a;
+  border-radius:2px;
+  transition: all .2s;
+ }
+ 
+ .card2:hover {
+  transform: scale(0.99);
+  border-radius: 20px;
+ }
+ 
+ .card1:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+ }
+.color{
+  width: 55px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.ordercardimg{
+  width:100% ;
+  height: 170px;
+  border-radius: 5px;
+}
+ @media (max-width:768px)
+ {
+
+  .card1{
+    font-size: 8px;
+    height: 140px;
+    width: 170px;
+  }
+  .card2{
+    font-size: 8px;
+    height: 140px;
+    width: 170px;
+
+
+  }
+
+  .color
+  {
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: yellow;
+
+  }
+
+  .ordercardimg{
+    width:100% ;
+    height: 140px;
+    border-radius: 5px;
+  }
+ }
+
+
+
+
+
+
+
+ .cardcopon {
+  box-sizing: border-box;
+  width: 100%;
+  height: 185px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.cardcopon:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.cardcopon:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+
